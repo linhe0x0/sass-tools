@@ -1,0 +1,30 @@
+{
+  "name": "@sqrtthree/sass-tools",
+  "version": "0.1.0",
+  "description": "Simple and lightweight mixin library for Sass.",
+  "main": "app.sass",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:serve": "vitepress serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrthree/sass-tools.git"
+  },
+  "keywords": [],
+  "author": "sqrtthree <imsqrtthree@gmail.com> (https://github.com/sqrthree)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sqrthree/sass-tools/issues"
+  },
+  "homepage": "https://github.com/sqrthree/sass-tools#readme",
+  "devDependencies": {
+    "vitepress": "~1.0.0-alpha.17",
+    "vue": "~3.2.39",
+    "sass": "~1.55.0"
+  }
+}
